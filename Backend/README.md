@@ -26,3 +26,14 @@ Creates a new user account with the provided information.
   "createdAt": "2021-01-01T00:00:00.000Z",
   "updatedAt": "2021-01-01T00:00:00.000Z"
 }
+
+## User Login
+Endpoint for authenticating existing users.
+
+### Endpoint
+POST /api/users/login
+
+### Description
+Authenticates a user and returns an authentication token.
+
+### Request Body
