@@ -37,3 +37,19 @@ POST /api/users/login
 Authenticates a user and returns an authentication token.
 
 ### Request Body
+
+## Get User Profile
+Endpoint for retrieving authenticated user's profile.
+
+### Endpoint
+GET /api/users/profile
+
+### Description
+Returns the profile information of the currently authenticated user.
+
+### Authentication
+Requires a valid JWT token in the Authorization header or cookies.
+
+### Response Examples
+
+#### Success Response (200 OK)
